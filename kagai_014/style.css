@@ -1,0 +1,68 @@
+html {
+  font-size: 20px;
+}
+
+/* 全体 */
+.whole {
+  text-align: center;
+  font-family: "Arial", "Meiryo", sans-serif;
+}
+
+/* 見出しレイアウト */
+.heading {
+  font-size: 2rem;
+  letter-spacing: 1.2em;
+  text-shadow: 1px 1px 2px grey;
+  border-bottom: solid 3px rgb(115, 115, 114);
+  font-family: "Josefin Sans", "Noto Sans JP", sans-serif;
+}
+
+/* 見出しMYPROFILEのMをスカイブルーに変更 */
+.M {
+  color: skyblue;
+}
+
+/* 見出しMYPROFILEのPをピンクに変更 */
+.P {
+  color: rgb(255, 192, 203);
+}
+
+/* 好きな食べ物の文字をピンクに変更 */
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+/* 趣味・プログラミングの文字をスカイブルーに変更 */
+.blue {
+  color: skyblue;
+}
+
+/* 名前編集 */
+#name {
+  color: rgb(255, 192, 203);
+}
+
+#name>p {
+  color: black;
+  font-weight: bold;
+}
+
+/* 生年月日編集 */
+#birthday {
+  color: skyblue;
+}
+
+#birthday>p {
+  color: black;
+  font-weight: bold;
+}
+
+/* 血液型編集 */
+#bloodtype {
+  color: rgb(255, 192, 203);
+}
+
+#bloodtype>p {
+  color: black;
+  font-weight: bold;
+}
