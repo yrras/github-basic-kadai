@@ -1,0 +1,88 @@
+h1,
+p,
+body {
+  margin: 0;
+}
+
+p,
+a {
+  font-size: 20px;
+}
+
+#heading {
+  margin: 0 0 20px 0;
+  color: rgb(255, 255, 255);
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+
+main {
+  padding: 10px;
+}
+
+#parent-container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.contents-item {
+  border: solid 3px rgb(238, 204, 204);
+  flex-basis: 25%;
+  padding: 10px 15px 10px 15px;
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  border-bottom: dotted 3px rgb(236, 122, 122);
+}
+
+h2::before {
+  content: "⚫︎";
+  color: rgb(239, 111, 139);
+}
+
+.contents-item p:nth-of-type(2):first-letter {
+  font-weight: bold;
+  color: rgb(97, 206, 249);
+}
+
+
+.contents-item img {
+  margin: 10px 0 10px 0;
+  width: 70%;
+}
+
+footer {
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+a:visited {
+  color: rgb(193, 234, 251);
+
+}
+
+a:hover {
+  color: rgb(245, 178, 168);
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  #parent-container {
+    flex-direction: column;
+  }
+}
